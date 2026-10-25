@@ -1,0 +1,13 @@
+{
+  "name": "learning-harness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pi extension: ask to learn anything — diagnostic → personalized lesson plan → lessons with check-ins, quizzes, feedback, and reviews. State lives in ~/.pi/learning/<topic>/.",
+  "type": "module",
+  "scripts": {
+    "test": "node test/flow.ts"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
